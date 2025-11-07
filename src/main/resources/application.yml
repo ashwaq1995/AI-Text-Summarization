@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+ai:
+  base-url: https://api.example.ai/v1  # ← replace with your provider
+  model: general-text                # ← optional
+  api-key: ${AI_API_KEY:}            # read from env var
+  timeout-ms: 10000
